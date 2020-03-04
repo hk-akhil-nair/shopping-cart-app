@@ -49,7 +49,7 @@ class Product extends React.Component {
         var cents = priceSplit[1];
 
         return(
-            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 eg-product-card">
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 eg-product-card">
                 <div className="eg-product-image"><img src={this.props.product.src_1} alt="T-Shirt Product 101" /></div>
                 <div className="eg-product-name"><h3>{this.props.product.title}</h3></div>
                 <div className="eg-product-price"><p>{this.props.product.currencyFormat}<span className="dollar">{dollars}</span>.<span className="cents">{cents}</span></p></div>
